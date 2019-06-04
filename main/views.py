@@ -10,7 +10,7 @@ def index(request):
     
 
 def upload(request):
-    if request.method = "POST":
+    if request.method == "POST":
         post =Post()
         post.title = request.POST ['title']
         post.content = request.POST ['content']
